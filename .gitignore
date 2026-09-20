@@ -1,0 +1,27 @@
+
+# Local-only data and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+node_modules/
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+*.db
+*.db-*
+*.sqlite*
+*.pem
+*.key
+config.toml
+project.private.config.json
+**/browser_profiles/
+**/*_browser*/
+logs/
+data/
+output/
+outputs/
+storage/

@@ -1,0 +1,9 @@
+[project]
+name = "wang-yuquan-local-transcriber"
+version = "1.0.0"
+description = "Local recursive batch transcription for Wang Yuquan video corpus"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "faster-whisper==1.2.0",
+  "requests==2.33.0",
+]
